@@ -4,7 +4,7 @@
 
 ### Formula
 $$
-V = \frac{1}{3} P \cdot h
+R = \frac{1}{3} d \cdot 2
 $$
 
 ### Алгоритамска шема
@@ -19,12 +19,12 @@ class Program
 {
     static void Main()
     {
-        Console.Write("Унесите дијагоналу квадрата d: ");
+        Console.Write("Unesite dijagonalu kvadrata d: ");
         double d = double.Parse(Console.ReadLine());
 
         double R = d / 2;
 
-        Console.WriteLine("Полупречник описаног круга је: " + R);
+        Console.WriteLine("poluprecnik opisanog kruga je: " + R);
     }
 }
 ```
@@ -32,23 +32,27 @@ class Program
  
 ### Тест примери
     Тест пример 1 
-    Unesi povrsinu P: 10
-    Unesi visinu h: 2
-    Zapremina kupe je: 6.66666666666667
+    Unesite dijagonalu kvadrata d: 5
+    poluprecnik opisanog kruga je: 2,5
 
-    Press any key to continue . . .
+    C:\Users\urosm\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe (process 18008) exited with code 0 (0x0).
+    To automatically close the console when debugging stops, enable Tools->Options->Debugging->Automatically close the console when debugging stops.
+    Press any key to close this window . . .
+
 
 
     Тест пример 2
-    Unesi povrsinu P: 15
-    Unesi visinu h: 3
-    Zapremina kupe je: 15
+    Unesite dijagonalu kvadrata d: 12
+    poluprecnik opisanog kruga je: 6
 
-    Press any key to continue . . .
+    C:\Users\urosm\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe (process 4192) exited with code 0 (0x0).
+    To automatically close the console when debugging stops, enable Tools->Options->Debugging->Automatically close the console when debugging stops.
+    Press any key to close this window . . .
+
 
    ### Објекти
 | Naziv promenljive | Tip    | Opis                          |
 |-------------------|--------|-------------------------------|
-| P                 | double | Površina osnove kupe          |
-| h                 | double | Visina kupe                   |
-| V                 | double | Izračunava se kao zapremina   |
+| R                 | double | Poluprecnik opisanog kruga    |
+| d                 | double | Dijagonala kvadrata           |
+
