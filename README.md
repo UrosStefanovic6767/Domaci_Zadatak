@@ -13,26 +13,20 @@ $$
 ## Решење 
 ```csharp
     
-    using System;
+   using System;
 
-    class Program
+class Program
+{
+    static void Main()
     {
-  
-     static void Main()
- 
-     {
+        Console.Write("Унесите дијагоналу квадрата d: ");
+        double d = double.Parse(Console.ReadLine());
 
-     Console.Write("Unesi površinu P: ");
-     double P = Convert.ToDouble(Console.ReadLine());
-     
-    Console.Write("Unesi visinu h: ");
-    double h = Convert.ToDouble(Console.ReadLine());
- 
-    double V = (1.0 / 3.0) * P * h;
+        double R = d / 2;
 
-    Console.WriteLine("Zapremina kupe je: " + V);
-     } 
+        Console.WriteLine("Полупречник описаног круга је: " + R);
     }
+}
 ```
 
  
