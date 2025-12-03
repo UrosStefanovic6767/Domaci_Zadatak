@@ -9,7 +9,7 @@ R = \frac{d}{2}
 $$
 
 ### Алгоритамска шема
-<img width="147" height="328" alt="Snimak ekrana 2025-12-03 153537" src="https://github.com/user-attachments/assets/e9aa8daa-167e-46ba-ba30-d47f24297da6" />
+<img width="367" height="567" alt="Snimak ekrana 2025-12-03 153537" src="https://github.com/user-attachments/assets/e9aa8daa-167e-46ba-ba30-d47f24297da6" />
 
 ## Решење 
 ```csharp
