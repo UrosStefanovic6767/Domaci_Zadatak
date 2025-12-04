@@ -1,7 +1,7 @@
 # Домаћи задатак из Техничке документације
 ## Задатак
-    Програм који на основу унете дужине дијагонале квадрата d израчунава полупречник 
-    описаног круга R. 
+Програм који на основу унете дужине **дијагонале** квадрата d израчунава **полупречник**
+описаног круга R. 
 
 ### Formula
 $$
@@ -54,6 +54,6 @@ class Program
    ### Објекти
 | Naziv promenljive | Tip    | Opis                          |
 |-------------------|--------|-------------------------------|
-| R                 | double | Poluprecnik opisanog kruga    |
-| d                 | double | Dijagonala kvadrata           |
+| `R`               |`double`| Poluprecnik opisanog kruga    |
+| `d`               |`double`| Dijagonala kvadrata           |
 
